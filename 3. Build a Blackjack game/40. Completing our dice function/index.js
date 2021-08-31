@@ -3,3 +3,6 @@ let randomNumber = Math.floor( Math.random() * 6 )
 
 console.log(randomNumber)
 
+function dice(){
+    return Math.floor( Math.random() * 6 ) + 1
+}
